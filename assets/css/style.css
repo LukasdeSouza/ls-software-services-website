@@ -847,8 +847,8 @@ p {
   .about_image .about_shape {
     width: 404px;
     height: 525px;
-    border-left: 15px solid #223454;
-    border-bottom: 15px solid #223454;
+    border-left: 15px solid #8861ed;
+    border-bottom: 15px solid #8861ed;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -866,7 +866,7 @@ p {
       content: '';
       width: 15px;
       height: 85%;
-      background-color: #223454;
+      background-color: #49bf91;
       bottom: 0;
       right: 0; }
     .about_image .about_shape::after {
@@ -874,7 +874,7 @@ p {
       content: '';
       width: 104%;
       height: 15px;
-      background-color: #223454;
+      background-color:#49bf91;
       top: 36px;
       right: -2px;
       -webkit-transform: rotate(11deg);
@@ -919,7 +919,7 @@ p {
       left: 0;
       height: 9px;
       border-radius: 5px;
-      background-color: #223454;
+      background-color: #8861ed;
       -webkit-transition: all 2s ease-out 0s;
       -moz-transition: all 2s ease-out 0s;
       -ms-transition: all 2s ease-out 0s;
