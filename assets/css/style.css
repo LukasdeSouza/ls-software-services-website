@@ -62,12 +62,24 @@ nav li a:hover {
   transform: rotate(180deg);
   z-index: -1;
 }
+.main-container-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 32px;
+}
 
+.main-container-flex-row img {
+  border-radius: 64px;
+  filter: drop-shadow(8px 16px 16px rgba(0, 0, 0, 0.6));
+
+}
 .flex-row {
   display: flex;
   flex-direction: row;
   margin-top: 130px;
-  padding: 24px;
   min-width: 280px;
   max-width: 500px;
 }
