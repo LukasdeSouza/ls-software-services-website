@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <script src="https://kit.fontawesome.com/9f305591ee.js" crossorigin="anonymous"></script>
   <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </head>
 
@@ -242,8 +243,13 @@
       <div class="main-container-cta-buttons">
         <h2>Eai, vamos conversar ?</h2>
         <p>entre em contato conosco e tire as suas dúvidas</p>
-        <a href="https://w.app/MyFA7Z" target="_blank">
-          <button class="btn-classic">Entrar em Contato
+        <input type="text" placeholder="Nome Completo" />
+        <input id="email" type="email" placeholder="Email" />
+        <input type="text" placeholder="Telefone" />
+        <textarea rows="10" placeholder="Assunto"></textarea>
+        <a href="mailto:lucasdesouzasilva112@gmail.com?cc=lucas@firmby.site" target="_blank">
+          <button class="btn-classic">
+            Entrar em Contato
             <lord-icon src="https://cdn.lordicon.com/egmlnyku.json" trigger="loop" colors="primary:#f49cc8,secondary:#ffffff,tertiary:#7166ee,quaternary:#ebe6ef" style="width:30px;height:30px">
             </lord-icon>
           </button>
