@@ -288,6 +288,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: end;
+  text-align: center;
   min-height: 35vh;
   background-image: url(../images/shape-2.png);
   background-repeat: no-repeat;
