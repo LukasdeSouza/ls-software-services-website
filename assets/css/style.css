@@ -112,7 +112,7 @@ nav li a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
   margin-top: 24px;
 }
 
