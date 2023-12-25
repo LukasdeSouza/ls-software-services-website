@@ -157,8 +157,8 @@ nav li a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  min-width: 280px;
-  max-width: 280px;
+  min-width: 250px;
+  max-width: 260px;
   padding: 8px;
 }
 .main-container-creation-process-column p {
@@ -190,7 +190,6 @@ nav li a:hover {
   width: 300px;
   margin: 16px;
   box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.3);
-
 }
 .main-container-our-products-card:hover {
   scale: 1.04;
