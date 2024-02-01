@@ -263,7 +263,18 @@ small {
   font-weight: 600;
   cursor: pointer;
 }
+
+.main-container-new-idea {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  text-align: center;
+}
+
 .main-container-cta {
+  border-top: 0.5px solid #ccc;
   display: flex;
   text-align: center;
   justify-content: center;
